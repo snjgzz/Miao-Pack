@@ -1,0 +1,70 @@
+{
+  "name": "oneoffice-home",
+  "displayName": "OneOffice 首页",
+  "version": "0.1.0",
+  "description": "首页 + 编辑壳。",
+  "accent": "#0D9488",
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "screens": [
+    {
+      "id": "home",
+      "path": "light/home.html",
+      "title": "首页",
+      "group": "首页",
+      "theme": "light",
+      "description": "OneOffice 落地首页。"
+    },
+    {
+      "id": "home",
+      "path": "dark/home.html",
+      "title": "首页",
+      "group": "首页",
+      "theme": "dark",
+      "description": "OneOffice 落地首页。"
+    },
+    {
+      "id": "editor",
+      "path": "light/editor.html",
+      "title": "编辑壳",
+      "group": "工作区",
+      "theme": "light",
+      "description": "文档编辑壳：顶栏与画布。"
+    },
+    {
+      "id": "editor",
+      "path": "dark/editor.html",
+      "title": "编辑壳",
+      "group": "工作区",
+      "theme": "dark",
+      "description": "文档编辑壳：顶栏与画布。"
+    },
+    {
+      "id": "settings",
+      "path": "light/settings.html",
+      "title": "设置",
+      "group": "设置",
+      "theme": "light",
+      "description": "空间与成员设置。"
+    },
+    {
+      "id": "settings",
+      "path": "dark/settings.html",
+      "title": "设置",
+      "group": "设置",
+      "theme": "dark",
+      "description": "空间与成员设置。"
+    }
+  ],
+  "docs": {
+    "readme": "README.md"
+  },
+  "generator": {
+    "command": "python3",
+    "args": [
+      "tools/gen.py"
+    ]
+  }
+}

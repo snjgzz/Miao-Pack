@@ -1,0 +1,135 @@
+{
+  "name": "miao-agent-design",
+  "displayName": "Miao Agent 设计包",
+  "version": "0.1.0",
+  "description": "Agent 界面的组件与状态稿。",
+  "accent": "#00B96B",
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "screens": [
+    {
+      "id": "overview",
+      "path": "light/overview.html",
+      "title": "总览",
+      "group": "组件",
+      "theme": "light",
+      "description": "设计包入口：密度、圆角与强调色。"
+    },
+    {
+      "id": "overview",
+      "path": "dark/overview.html",
+      "title": "总览",
+      "group": "组件",
+      "theme": "dark",
+      "description": "设计包入口：密度、圆角与强调色。"
+    },
+    {
+      "id": "composer",
+      "path": "light/composer.html",
+      "title": "Composer",
+      "group": "组件",
+      "theme": "light",
+      "description": "输入区结构，6px 圆角，不用胶囊。"
+    },
+    {
+      "id": "composer",
+      "path": "dark/composer.html",
+      "title": "Composer",
+      "group": "组件",
+      "theme": "dark",
+      "description": "输入区结构，6px 圆角，不用胶囊。"
+    },
+    {
+      "id": "message",
+      "path": "light/message.html",
+      "title": "消息",
+      "group": "组件",
+      "theme": "light",
+      "description": "用户与助手消息的排版。"
+    },
+    {
+      "id": "message",
+      "path": "dark/message.html",
+      "title": "消息",
+      "group": "组件",
+      "theme": "dark",
+      "description": "用户与助手消息的排版。"
+    },
+    {
+      "id": "sidebar",
+      "path": "light/sidebar.html",
+      "title": "侧栏",
+      "group": "组件",
+      "theme": "light",
+      "description": "会话列表的密度与状态点。"
+    },
+    {
+      "id": "sidebar",
+      "path": "dark/sidebar.html",
+      "title": "侧栏",
+      "group": "组件",
+      "theme": "dark",
+      "description": "会话列表的密度与状态点。"
+    },
+    {
+      "id": "empty",
+      "path": "light/empty.html",
+      "title": "空状态",
+      "group": "状态",
+      "theme": "light",
+      "description": "没有会话时的空态。"
+    },
+    {
+      "id": "empty",
+      "path": "dark/empty.html",
+      "title": "空状态",
+      "group": "状态",
+      "theme": "dark",
+      "description": "没有会话时的空态。"
+    },
+    {
+      "id": "tool-call",
+      "path": "light/tool-call.html",
+      "title": "工具调用",
+      "group": "状态",
+      "theme": "light",
+      "description": "工具卡与结果。"
+    },
+    {
+      "id": "tool-call",
+      "path": "dark/tool-call.html",
+      "title": "工具调用",
+      "group": "状态",
+      "theme": "dark",
+      "description": "工具卡与结果。"
+    },
+    {
+      "id": "diff",
+      "path": "light/diff.html",
+      "title": "差异",
+      "group": "状态",
+      "theme": "light",
+      "description": "补丁与文件差异。"
+    },
+    {
+      "id": "diff",
+      "path": "dark/diff.html",
+      "title": "差异",
+      "group": "状态",
+      "theme": "dark",
+      "description": "补丁与文件差异。"
+    }
+  ],
+  "docs": {
+    "readme": "README.md",
+    "styleGuide": "STYLE_GUIDE.md"
+  },
+  "generator": {
+    "command": "python3",
+    "args": [
+      "tools/gen.py"
+    ]
+  }
+}
