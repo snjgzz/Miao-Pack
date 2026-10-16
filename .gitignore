@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.miao-pack/
+*.log
+.DS_Store

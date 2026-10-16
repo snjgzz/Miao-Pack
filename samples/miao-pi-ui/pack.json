@@ -1,0 +1,296 @@
+{
+  "name": "miao-pi-ui",
+  "displayName": "Miao × pi-web UI",
+  "version": "0.1.0",
+  "description": "pi-web 会话工作区的 HTML 设计稿。",
+  "accent": "#00B96B",
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "screens": [
+    {
+      "id": "main",
+      "path": "light/main.html",
+      "title": "会话主路径",
+      "group": "主界面",
+      "theme": "light",
+      "description": "pi-web 会话工作区：侧栏项目分组、消息流、Composer、底栏。包内仅 HTML，无 PNG 资产。"
+    },
+    {
+      "id": "main",
+      "path": "dark/main.html",
+      "title": "会话主路径",
+      "group": "主界面",
+      "theme": "dark",
+      "description": "pi-web 会话工作区：侧栏项目分组、消息流、Composer、底栏。包内仅 HTML，无 PNG 资产。"
+    },
+    {
+      "id": "files",
+      "path": "light/files.html",
+      "title": "文件三栏",
+      "group": "主界面",
+      "theme": "light",
+      "description": "文件树、编辑区与预览并列的三栏工作区。"
+    },
+    {
+      "id": "files",
+      "path": "dark/files.html",
+      "title": "文件三栏",
+      "group": "主界面",
+      "theme": "dark",
+      "description": "文件树、编辑区与预览并列的三栏工作区。"
+    },
+    {
+      "id": "settings-appearance",
+      "path": "light/settings-appearance.html",
+      "title": "语言与外观",
+      "group": "设置",
+      "theme": "light",
+      "description": "界面语言与浅色 / 深色外观。"
+    },
+    {
+      "id": "settings-appearance",
+      "path": "dark/settings-appearance.html",
+      "title": "语言与外观",
+      "group": "设置",
+      "theme": "dark",
+      "description": "界面语言与浅色 / 深色外观。"
+    },
+    {
+      "id": "settings-model",
+      "path": "light/settings-model.html",
+      "title": "模型",
+      "group": "设置",
+      "theme": "light",
+      "description": "默认模型与参数。"
+    },
+    {
+      "id": "settings-model",
+      "path": "dark/settings-model.html",
+      "title": "模型",
+      "group": "设置",
+      "theme": "dark",
+      "description": "默认模型与参数。"
+    },
+    {
+      "id": "settings-agents",
+      "path": "light/settings-agents.html",
+      "title": "Agents",
+      "group": "设置",
+      "theme": "light",
+      "description": "已安装的 Agent 列表。"
+    },
+    {
+      "id": "settings-agents",
+      "path": "dark/settings-agents.html",
+      "title": "Agents",
+      "group": "设置",
+      "theme": "dark",
+      "description": "已安装的 Agent 列表。"
+    },
+    {
+      "id": "settings-plugins",
+      "path": "light/settings-plugins.html",
+      "title": "插件与技能",
+      "group": "设置",
+      "theme": "light",
+      "description": "插件、技能与开关。"
+    },
+    {
+      "id": "settings-plugins",
+      "path": "dark/settings-plugins.html",
+      "title": "插件与技能",
+      "group": "设置",
+      "theme": "dark",
+      "description": "插件、技能与开关。"
+    },
+    {
+      "id": "overlay-session-menu",
+      "path": "light/overlay-session-menu.html",
+      "title": "会话菜单",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "当前会话的操作菜单。"
+    },
+    {
+      "id": "overlay-session-menu",
+      "path": "dark/overlay-session-menu.html",
+      "title": "会话菜单",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "当前会话的操作菜单。"
+    },
+    {
+      "id": "overlay-model-select",
+      "path": "light/overlay-model-select.html",
+      "title": "模型选择",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "为这条消息选择模型。"
+    },
+    {
+      "id": "overlay-model-select",
+      "path": "dark/overlay-model-select.html",
+      "title": "模型选择",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "为这条消息选择模型。"
+    },
+    {
+      "id": "overlay-thinking",
+      "path": "light/overlay-thinking.html",
+      "title": "推理级别",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "推理深度档位。"
+    },
+    {
+      "id": "overlay-thinking",
+      "path": "dark/overlay-thinking.html",
+      "title": "推理级别",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "推理深度档位。"
+    },
+    {
+      "id": "overlay-tool-preset",
+      "path": "light/overlay-tool-preset.html",
+      "title": "工具预设",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "工具组合预设。"
+    },
+    {
+      "id": "overlay-tool-preset",
+      "path": "dark/overlay-tool-preset.html",
+      "title": "工具预设",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "工具组合预设。"
+    },
+    {
+      "id": "overlay-branch",
+      "path": "light/overlay-branch.html",
+      "title": "分支导航",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "会话分支之间跳转。"
+    },
+    {
+      "id": "overlay-branch",
+      "path": "dark/overlay-branch.html",
+      "title": "分支导航",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "会话分支之间跳转。"
+    },
+    {
+      "id": "overlay-system-prompt",
+      "path": "light/overlay-system-prompt.html",
+      "title": "系统提示词",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "系统提示词编辑。"
+    },
+    {
+      "id": "overlay-system-prompt",
+      "path": "dark/overlay-system-prompt.html",
+      "title": "系统提示词",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "系统提示词编辑。"
+    },
+    {
+      "id": "overlay-tools",
+      "path": "light/overlay-tools.html",
+      "title": "工具定义",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "工具 schema 与说明。"
+    },
+    {
+      "id": "overlay-tools",
+      "path": "dark/overlay-tools.html",
+      "title": "工具定义",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "工具 schema 与说明。"
+    },
+    {
+      "id": "overlay-agents",
+      "path": "light/overlay-agents.html",
+      "title": "Agents",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "从弹出层选择 Agent。"
+    },
+    {
+      "id": "overlay-agents",
+      "path": "dark/overlay-agents.html",
+      "title": "Agents",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "从弹出层选择 Agent。"
+    },
+    {
+      "id": "overlay-trust",
+      "path": "light/overlay-trust.html",
+      "title": "信任项目",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "工作区信任确认。"
+    },
+    {
+      "id": "overlay-trust",
+      "path": "dark/overlay-trust.html",
+      "title": "信任项目",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "工作区信任确认。"
+    },
+    {
+      "id": "overlay-worktree",
+      "path": "light/overlay-worktree.html",
+      "title": "Worktree",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "Git worktree 切换。"
+    },
+    {
+      "id": "overlay-worktree",
+      "path": "dark/overlay-worktree.html",
+      "title": "Worktree",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "Git worktree 切换。"
+    },
+    {
+      "id": "overlay-stats",
+      "path": "light/overlay-stats.html",
+      "title": "会话统计",
+      "group": "弹出层",
+      "theme": "light",
+      "description": "token 与耗时。"
+    },
+    {
+      "id": "overlay-stats",
+      "path": "dark/overlay-stats.html",
+      "title": "会话统计",
+      "group": "弹出层",
+      "theme": "dark",
+      "description": "token 与耗时。"
+    }
+  ],
+  "docs": {
+    "readme": "README.md",
+    "featureMap": "FEATURE_MAP.md",
+    "styleGuide": "STYLE_GUIDE.md"
+  },
+  "generator": {
+    "command": "python3",
+    "args": [
+      "tools/gen.py"
+    ]
+  }
+}

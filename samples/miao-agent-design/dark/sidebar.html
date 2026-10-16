@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<title>侧栏</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Noto Sans SC",sans-serif;background:#141614;color:#F2F4F2;min-height:100vh;display:flex}
+aside{width:220px;background:#191B19;border-right:1px solid rgba(255,255,255,0.08);padding:18px 12px;flex:none}
+.brand{font-weight:650;font-size:13px;margin-bottom:14px}
+.brand span{display:block;color:#8E988E;font-weight:500;font-size:11px;margin-top:3px}
+.g{font-size:11px;color:#8E988E;padding:10px 8px 4px}
+a{display:block;padding:6px 8px;border-radius:6px;color:#F2F4F2;text-decoration:none;font-size:13px}
+a.on{background:color-mix(in srgb,#00B96B 18%, transparent);color:#00B96B;font-weight:600}
+main{flex:1;padding:28px 32px;min-width:0}
+h1{font-size:22px;letter-spacing:-.03em}
+p.lead{color:#8E988E;margin:8px 0 18px;line-height:1.5;max-width:560px}
+.card{background:#1C1E1C;border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:16px;max-width:640px}
+.bar{height:8px;border-radius:4px;background:#00B96B;width:34%;opacity:.8;margin-bottom:12px}
+.row{height:8px;border-radius:4px;background:rgba(255,255,255,0.08);margin-top:8px}
+button,a.btn{display:inline-flex;margin-top:16px;background:#00B96B;color:#fff;border:0;border-radius:6px;padding:8px 12px;font-weight:600;text-decoration:none}
+footer{margin-top:22px;color:#8E988E;font-size:12px}
+.stage{position:relative;min-height:420px;background:#1C1E1C;border:1px solid rgba(255,255,255,0.08);border-radius:10px;overflow:hidden}
+.dim{position:absolute;inset:0;background:rgba(0,0,0,.28);display:flex;align-items:center;justify-content:center}
+.dlg{width:320px;background:#1C1E1C;border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:16px;box-shadow:0 12px 32px rgba(0,0,0,.16)}
+</style>
+</head>
+<body>
+<aside>
+  <div class="brand">Miao Agent 设计包<span>dark · HTML</span></div>
+  <div class="g">组件</div><a class="" href="overview.html">总览</a><a class="" href="composer.html">Composer</a><a class="" href="message.html">消息</a><a class="on" href="sidebar.html">侧栏</a><div class="g">状态</div><a class="" href="empty.html">空状态</a><a class="" href="tool-call.html">工具调用</a><a class="" href="diff.html">差异</a>
+</aside>
+<main>
+  <h1>侧栏</h1><p class="lead">会话列表的密度与状态点。</p>
+<div class="card"><div class="bar"></div><div class="row" style="width:80%"></div><div class="row" style="width:62%"></div>
+<a class="btn" href="empty.html">打开下一页</a></div>
+  <footer>生成于 2026-10-16 09:56:18 UTC · 仅 HTML，无 PNG</footer>
+</main>
+</body>
+</html>
